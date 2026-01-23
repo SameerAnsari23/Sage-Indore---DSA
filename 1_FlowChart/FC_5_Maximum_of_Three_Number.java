@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Maximum_of_Three_Number {
+public class FC_5_Maximum_of_Three_Number {
  public static void main(String[] args) {
   Scanner sc = new Scanner(System.in);
 

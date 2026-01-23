@@ -1,6 +1,7 @@
 import java.util.Scanner;
-public class GradeSystem {
+public class FC_6_Grade_System {
  public static void main(String [] arg) {
+  // Create a Scanner object for user input
   Scanner sc = new Scanner(System.in);
   System.out.print("Enter your marks, convert marks into grade: ");
   float marks = sc.nextFloat();
@@ -23,6 +24,8 @@ public class GradeSystem {
   else {
    System.out.println("Your are Fail");
   }
+
+  // Close the scanner
   sc.close();
  }
 }
