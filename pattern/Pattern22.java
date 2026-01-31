@@ -1,23 +1,23 @@
 /*
 n = 5
 
-*               * 
-* *           * *
-* * *       * * *
+* * * * * * * * *  
 * * * *   * * * *
-* * * * * * * * *
+* * *       * * *
+* *           * *
+*               *
 
 */
 
 package pattern;
 import java.util.Scanner;
 
-public class Pattern21 {
+public class Pattern22 {
  public static void main(String[] arg) {
   Scanner sc = new Scanner(System.in);
   int n = sc.nextInt();
 
-  for(int row = 0; row < n; row++) {
+  for(int row = n-1; row >= 0; row--) {
    // Left Star
    for(int col = 0; col <= row; col++) {
     System.out.print("* ");
@@ -31,7 +31,7 @@ public class Pattern21 {
    // Star
    for(int col = 0; col <= row; col++) {
     if(row == n-1 && col == n-1) {
-     System.out.println();
+     System.out.print(" ");
     }
     else {
      System.out.print("* ");

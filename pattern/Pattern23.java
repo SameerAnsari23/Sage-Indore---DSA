@@ -1,17 +1,17 @@
 /*
 n = 5
 
-        *
-      * * *       
-    * * * * *     
-  * * * * * * *   
-* * * * * * * * * 
+        1
+      1 1 1       
+    1 1 1 1 1     
+  1 1 1 1 1 1 1   
+1 1 1 1 1 1 1 1 1 
+
 
 */
-
 package pattern;
 import java.util.Scanner;
-public class Pattern9 {
+public class Pattern23 {
  public static void main(String[] args) {
   Scanner sc = new Scanner(System.in);
   System.out.print("Enter a number: ");
@@ -26,7 +26,7 @@ public class Pattern9 {
 
    // Star
    for (int col = 0; col < 2 * row + 1; col++) {
-    System.out.print("* ");
+    System.out.print( 1 + " ");
    }
 
    System.out.println();

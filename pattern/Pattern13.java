@@ -1,3 +1,17 @@
+/*
+
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+*/
+
 package pattern;
 import java.util.Scanner;
 public class Pattern13 {

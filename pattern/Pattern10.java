@@ -1,3 +1,15 @@
+/*
+n = 5
+
+* * * * * * * * * 
+  * * * * * * *   
+    * * * * *     
+      * * *       
+        *
+
+
+*/
+
 package pattern;
 import java.util.Scanner;
 public class Pattern10 {
@@ -9,12 +21,12 @@ public class Pattern10 {
   for(int row = 0; row < n; row++) {
    // Space
    for (int col = 0; col < row; col++) {
-    System.out.print(" ");
+    System.out.print("  ");
    }
 
    // Star
    for(int col = 0; col < 2*(n - row) - 1; col++) {
-    System.out.print("*");
+    System.out.print("* ");
    }
 
    // next line

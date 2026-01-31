@@ -1,3 +1,13 @@
+/*
+n = 5
+
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+*/
 package pattern;
 
 import java.util.Scanner;

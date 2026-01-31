@@ -1,17 +1,17 @@
 /*
-n = 5
 
         *
-      * * *       
-    * * * * *     
-  * * * * * * *   
-* * * * * * * * * 
+      * ! *
+    * ! * ! *
+  * ! * ! * ! *
+* ! * ! * ! * ! *
 
 */
 
 package pattern;
 import java.util.Scanner;
-public class Pattern9 {
+
+public class Pattern12 {
  public static void main(String[] args) {
   Scanner sc = new Scanner(System.in);
   System.out.print("Enter a number: ");
@@ -21,12 +21,20 @@ public class Pattern9 {
    
    // Space
    for (int col = 0; col < n - row - 1; col++) {
-    System.out.print("  ");
+    System.out.print(' ');
    }
 
    // Star
    for (int col = 0; col < 2 * row + 1; col++) {
-    System.out.print("* ");
+    // if even ---> Print Star
+    if(col % 2 == 0) {
+      System.out.print("*");
+    }
+
+    // if odd ---> Print !
+    else {
+      System.out.print("!");
+    }
    }
 
    System.out.println();
@@ -35,3 +43,4 @@ public class Pattern9 {
   sc.close();
  }
 }
+ 

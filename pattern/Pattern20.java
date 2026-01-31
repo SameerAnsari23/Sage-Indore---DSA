@@ -1,3 +1,17 @@
+/*
+n = 7
+
+      *       
+    *   *
+  *       *
+*           *
+  *       *
+    *   *
+      *
+      
+
+*/
+
 package pattern;
 import java.util.Scanner;
 public class Pattern20 {
@@ -10,10 +24,10 @@ public class Pattern20 {
    for(int row = 0; row < n; row++) {
     for (int col = 0; col < n; col++) {
      if (Math.abs(row - mid) + Math.abs(col - mid) == mid) {
-      System.out.print("*");
+      System.out.print("* ");
      }
      else {
-      System.out.print(" ");
+      System.out.print("  ");
      }
      
     }

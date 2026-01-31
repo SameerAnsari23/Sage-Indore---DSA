@@ -1,5 +1,13 @@
+/*
+n = 5
+
+* * * * * 
+
+*/
+
 package pattern;
 import java.util.Scanner;
+
 public class Pattern0 {
  public static void main(String[] arg) {
   Scanner sc = new Scanner(System.in);
