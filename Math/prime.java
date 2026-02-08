@@ -1,3 +1,11 @@
+/*
+Prime Number: A number which is divisble by 1 or itself
+Question 1
+i/p : 13
+o/p : Prime Number
+
+*/
+
 package Math;
 
 import java.util.Scanner;
