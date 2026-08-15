@@ -1,3 +1,5 @@
+// This teaches, how to carry state through recursion.
+
 #include <bits/stdc++.h>
 using namespace std;
 
