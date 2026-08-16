@@ -1,0 +1,54 @@
+                RECURSION
+                    ↓
+             1. Subsequences
+                    ↓
+             2. Subsets
+                    ↓
+          3. Combination Sum
+                    ↓
+       4. Combination Sum II
+                    ↓
+      5. Letter Combinations
+                    ↓
+           6. Permutations
+                    ↓
+         7. Permutations II
+                    ↓
+       8. Palindrome Partitioning
+                    ↓
+       9. Generate Parentheses
+                    ↓
+          10. N-Queens
+                    ↓
+          11. Rat in a Maze
+                    ↓
+          12. Word Search
+                    ↓
+          13. Sudoku Solver
+                    ↓
+       14. K Equal Sum Subsets
+                    ↓
+        15. Expression Add Operators
+
+
+During solving question ask these below question 
+1] What is my choice ?
+Example: -> Subsets → take / don't take
+-> Permutations → which element should come here?
+-> N-Queens → which column should I choose?
+
+2] What is my state 
+-> idx
+-> current answer
+-> target
+-> visited
+
+3] What is my base case? 
+
+4] When should i backtrack?
+-> choose
+-> solve()
+-> undo
+
+5] Can i prune?
+-> Can I identify an invalid path before reaching the leaf?
